@@ -1,0 +1,22 @@
+    1  ls
+    2  cd ~/
+    3  cd cit173_lab2_files
+    4  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+    5  ls
+    6  ls -1
+    7  ls
+    8  wc my-phonebook.txt
+    9  ls -1
+   10  wc my-phonebook.txt
+   11  cat my-phonebook.txt | less
+   12  cat  phonelisting1.txt phonelisting2.txt > my-phonelisting.txt
+   13  tac my-phonebook.txt > my-phonebook-reverse.txt
+   14  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+   15  man unexpand
+   16  unexpand my-phonebook.txt > my-tabbed-phonebook.txt
+   17  sort my-phonebook.txt > my-sorted-phonebook.txt
+   18  nl my-phonebook.txt > my-numbered-phonebook.txt
+   19  head
+   20  head my-phonebook.txt > my-head-phonebook.txt
+   21  tail my-phonebook.txt > my-tail-phonebook.txt
+   22  history > my-command-history.txt
